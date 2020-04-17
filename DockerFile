@@ -1,0 +1,4 @@
+FROM classmethod/openjdk-alpine-git
+ADD target/cosmetic-jdbc-0.0.1-SNAPSHOT.jar cosmetic-jdbc-0.0.1-SNAPSHOT.jar
+EXPOSE 8085
+ENTRYPOINT ["java","-jar","cosmetic-jdbc-0.0.1-SNAPSHOT.jar"]

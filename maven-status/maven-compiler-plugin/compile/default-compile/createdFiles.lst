@@ -1,0 +1,6 @@
+com\mssql\test\repositories\CosmeticRepository.class
+com\mssql\test\entities\Cosmetic.class
+com\mssql\test\controllers\CosmeticController.class
+com\mssql\test\services\CosmeticService.class
+com\mssql\test\swaggerconfig\SwaggerConfiguration.class
+com\mssql\test\DemoApplication.class
