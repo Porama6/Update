@@ -14,7 +14,7 @@ public class DemoApplication {
 	public static void main(String[] args) {
 		SpringApplication.run(DemoApplication.class, args);
 
-		String url = "jdbc:mysql://localhost:3306/springbootdb";
+		String url = "jdbc:mysql://mysql-cosmetic:3306/springbootdb";
 		String username = "root";
 		String password = "HelloDB1234";
 		try (Connection connection = DriverManager.getConnection(url, username, password)) {
